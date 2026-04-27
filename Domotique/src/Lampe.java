@@ -1,4 +1,4 @@
-public class Lampe {
+public class Lampe implements Appareil {
     public class Lampe {
 
         private String nom;
