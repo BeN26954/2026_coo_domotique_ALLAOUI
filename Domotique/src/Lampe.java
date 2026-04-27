@@ -10,15 +10,14 @@ public class Lampe implements Appareil {
         }
 
         public void allumer() {
-            this.allume = true;
+            allume = true;
         }
 
         public void eteindre() {
-            this.allume = false;
+            allume = false;
         }
 
-        public boolean estAllumee() {
-            return this.allume;
+        public String toString() {
+            return nom + (allume ? " (allumée)" : " (éteinte)");
         }
     }
-}
